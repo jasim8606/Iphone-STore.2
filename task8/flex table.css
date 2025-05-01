@@ -1,0 +1,46 @@
+.firstdivision{
+    background-color: blueviolet;
+    width: 500px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 30px;   
+}
+.seconddivision{
+    background-color: bisque;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    gap: 20px;
+
+}
+.thirddivision{
+    background-color: brown;
+    height: 250px;
+    width: 250px;
+    
+}
+.fourthdivision{
+    background-color: brown;
+    height: 250px;
+    width: 250px;
+
+}
+.fifthdivision{
+    background-color: bisque;
+    height: 250px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.sixthdivision{
+    background-color: green;
+    height: 250px;
+    width:250px;
+}
+.seventhdivision{
+    background-color: green;
+    height: 250px;
+    width: 250px;
+}

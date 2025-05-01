@@ -1,0 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+.left{
+    height: 50px;
+    width: 50px;
+}
