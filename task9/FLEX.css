@@ -1,5 +1,5 @@
 .bluedivision {
-    background-color: rgb(4, 0, 255);
+    /* background-color: rgb(4, 0, 255); */
     height: 500px;
     width: 50%;
     display: flex;
@@ -15,7 +15,7 @@
     width: 100px;
 }
 .topdivision{
-    background-color: brown;
+    
     height: 100px;
     width: 100px;
 }

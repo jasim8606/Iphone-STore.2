@@ -78,11 +78,4 @@
     gap: 50px;
     padding-top: 209px;
   }
-  @media screen and (min-width: 400px) {
-    {}
-  }
-  @media screen and (min-width: 600px) {
-    {
-
-    }
-  }
+  
