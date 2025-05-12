@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VMC Hospital</title>
+  <link rel="stylesheet" href="vmc.css">
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">VMC <span>HOSPITAL</span></div>
+      <nav class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Departments</a>
+        <a href="#">Doctors</a>
+        <a href="#">Contact</a>
+      </nav>
+      <div class="emergency">
+        <span>📞 EMERGENCY<br/><strong>+91 9747556020</strong></span>
+        <button class="call-now">Call Now</button>
+      </div>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <div class="label">COMPREHENCIVE CARE</div>
+      <h1>Dedicated to,<br/>Your Health</h1>
+      <button class="book-btn">Book Now</button>
+    </div>
+  </section>
+
+  <script>
+    function toggleMenu() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
